@@ -1,0 +1,10 @@
+.image-prestation {
+    width: 200px;
+    height: auto;
+    border: 4px solid #d96220;
+}
+
+.prestation {
+    text-align: center;
+    max-width: 25%;
+}

@@ -1,0 +1,17 @@
+.galerie {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 40px 0;
+    padding-top: 40px;
+    background-color: white;
+}
+
+.galerie-1, .galerie-2 {
+    width: 500px;
+}
+
+.aperitif-galerie {
+    width: 480px;
+    height: auto;
+    margin-bottom: 20px;
+}

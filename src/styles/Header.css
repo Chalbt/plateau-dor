@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.logo-header {
+    width: 100px;
+}
+
+.menu-header {
+    display: flex;
+    align-items: center;
+}
+
+.menu-header ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.menu-header li {
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+.menu-header a {
+    text-decoration: none;
+    color: #5C3321;
+}

@@ -1,0 +1,55 @@
+.accroche {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.plat-accueil {
+    width: 600px;
+    border-radius: 0 50% 80px 0;
+}
+
+.accroche p {
+    color: #d96220;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin: 0 30px 0 30px;
+    font-size: 50px;
+}
+
+.presentation {
+    background-color: white;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px 0 60px 0;
+}
+
+.presentation-text {
+    margin: 40px 0 20px 0;
+    width: 700px;
+    color: #5C3321;
+    text-align: center;
+}
+
+.presentation p {
+    text-align: center;
+}
+
+.presentation button {
+    font-size: 15px;
+    background-color: #d96220;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    color: #5C3321;
+    margin: 15px;
+}
+
+.presentation img {
+    width: 600px;
+    height: 100%;
+    border-radius: 50% 0 0 0;
+}

@@ -1,0 +1,26 @@
+.carroussel-container {
+    width: 50%;
+    height: 400px; 
+    overflow: hidden; 
+    position: relative; 
+  }
+  
+  .carroussel-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .carroussel-buttons {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    right: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .carroussel-buttons img {
+    height: 30px;
+    width: 40px;
+  }
