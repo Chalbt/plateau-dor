@@ -1,6 +1,11 @@
 import "../styles/NosServices.css"
 import Prestation from "./Prestation";
-import Assiette from "../assets/plats/plat-3.jpeg"
+import Prestation1 from "../assets/plats/plat-7.jpeg"
+import Prestation2 from "../assets/entrees/entree-14.jpeg";
+import Prestation3 from "../assets/entrees/entree-7.jpeg";
+import Assiette from "../assets/plats/plat-11.jpeg"
+import Buffet from "../assets/plats/plat-3.jpeg"
+import Cocktail from "../assets/desserts/dessert-19.jpeg"
 import Caroussel from "./Carroussel";
 import React, { useEffect } from 'react';
 
@@ -19,17 +24,17 @@ function NosServices() {
            <div className="section-prestation">
                 <div className="each-prestation">
                         <Prestation
-                            image={Assiette}
+                            image={Prestation1}
                             title="Repas, buffet & cocktail"
                             description="Séminaire et conférence, dîner de gala, fêtes d'entreprise, réunions d'affaire."
                         />
                         <Prestation
-                            image={Assiette}
+                            image={Prestation2}
                             title="Prestation sur salon"
                             description="Salon professionnel, cocktail et réception, journée presse."
                         />
                         <Prestation
-                            image={Assiette}
+                            image={Prestation3}
                             title="Évènement sur mesure"
                             description="Mariage, anniversaire, évènements culturels ou sportifs, fête privée."
                         />
@@ -49,7 +54,7 @@ function NosServices() {
                     <img src={Assiette} alt="photo d'un plat"/>
                 </div>
                 <div className="each-menu">
-                    <img src={Assiette} alt="photo d'un plat"/>
+                    <img src={Buffet} alt="photo d'un plat"/>
                     <div className="menu-description">
                         <h4>Forfait Buffet "Fusion Gourmande"</h4>
                         <p>Découvrez notre forfait buffet "Fusion Gourmande", une expérience culinaire variée et conviviale pour tous vos événements. Proposant un large choix d'amuse-bouches, d'entrées, de plats principaux et de desserts, notre buffet met en valeur la fusion audacieuse de la cuisine malgache et française. À partir de ?€, notre forfait buffet vous offre une délicieuse expérience gastronomique pour ravir vos convives et créer des souvenirs inoubliables.</p>
@@ -64,7 +69,7 @@ function NosServices() {
                         <p>Ce forfait buffet peut être adapté en fonction des préférences culinaires de vos clients et des spécificités de l'événement.</p>
                         <p>Comprend : Trois amuses-bouche, trois entrées, trois plats et leurs accompagnement et trois desserts.</p>
                     </div>
-                    <img src={Assiette} alt="photo d'un plat"/>
+                    <img src={Cocktail} alt="photo d'un plat"/>
                 </div>
            </div>
            <div id="suggestions" className="carroussel">

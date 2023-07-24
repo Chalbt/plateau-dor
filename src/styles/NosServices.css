@@ -39,21 +39,28 @@
 
 .menu-description {
     background-color: #ebdfc9;
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
+    width: 50%;
 }
 
 .each-menu {
     display: flex;
     justify-content: center;
+    height: 500px;
+    overflow: hidden;
 }
 
 .each-menu img {
     width: 50%;
+    height: auto;
+    object-fit: cover;
 }
 
 .each-menu p {
-    width: 100%;
+    width: 90%;
 }
 
 .carroussel {
