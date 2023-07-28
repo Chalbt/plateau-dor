@@ -46,3 +46,19 @@
     list-style-type: none;
     text-align: left;
 }
+
+@media screen and (max-width: 767px) {
+
+.description-contacts {
+    background-color: #ebdfc9;
+}
+    
+.intro-contact {
+    margin: 15px;
+}
+
+.informations {
+    padding: 30px 0 0 0;
+}
+
+}

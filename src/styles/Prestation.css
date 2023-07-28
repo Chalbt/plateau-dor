@@ -9,3 +9,12 @@
     text-align: center;
     max-width: 25%;
 }
+
+@media screen and (max-width: 767px) {
+
+    .prestation {
+        max-width: 100%;
+        margin-top: 30px;
+    }
+
+}

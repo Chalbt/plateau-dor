@@ -74,6 +74,7 @@
 
 .suggestions {
     display: flex;
+    align-items: center;
 }
 
 .presentation-suggestions {
@@ -87,4 +88,52 @@
 
 .presentation-suggestions ul {
     padding-left: 0;
+}
+
+@media screen and (max-width: 767px) {
+
+    .each-prestation {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .section-prestation {
+        padding: 0 15px 0 15px;
+    }
+
+    .menus {
+        margin: 20px;
+    }
+
+    .each-menu {
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .menu-description {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .each-menu img {
+        display: none;
+    }
+
+    .carroussel {
+        padding: 0;
+    }
+
+    .carroussel h4 {
+        margin: 60px 0 0 10px;
+    }
+
+    .suggestions {
+        flex-direction: column;
+    }
+
+    .presentation-suggestions {
+        margin: 15px;
+        text-align: center;
+    }
+
 }

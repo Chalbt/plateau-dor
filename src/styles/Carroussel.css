@@ -1,13 +1,10 @@
 .carroussel-container {
-    width: 50%;
-    height: 400px; 
-    overflow: hidden; 
     position: relative; 
   }
   
   .carroussel-container img {
-    width: 100%;
-    height: auto;
+    width: 500px;
+    height: 500px;
     object-fit: cover;
   }
   
@@ -23,4 +20,22 @@
   .carroussel-buttons img {
     height: 30px;
     width: 40px;
+  }
+
+  @media screen and (max-width: 767px) {
+
+    .carroussel-container img {
+      height: 300px;
+      width: 300px;
+    }
+
+    .carroussel-buttons img {
+      height: 20px;
+      width: 10px;
+    }
+
+    .carroussel-container {
+      margin-top: 20px;
+    }
+
   }
