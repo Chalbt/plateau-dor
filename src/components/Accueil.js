@@ -1,5 +1,5 @@
 import PlatAccueil from '../assets/plat-accueil.png'
-import PlatPresentation from "../assets/aperitif/aperitif-2.jpeg"
+import PlatPresentation from "../assets/desserts/dessert-13.jpeg"
 import '../styles/Accueil.css'
 import { Link } from 'react-router-dom';
 

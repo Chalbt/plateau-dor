@@ -11,7 +11,7 @@ function Footer() {
             <div className="footer-icon">
                 <div className="each-footer">
                     <Link to="https://wa.me/33688255149" target="_blank"><FontAwesomeIcon icon={faPhone} /></Link>
-                    <p>Contactez-nous directement sur Whatsapp en cliquant sur ce bouton ou au +33 6 XX XX XX</p>
+                    <p>Contactez-nous directement sur Whatsapp ou au +33 6 XX XX XX</p>
                 </div>
                 <div className="each-footer">
                     <a href="#"><FontAwesomeIcon icon={faHashtag} /></a>
@@ -21,6 +21,9 @@ function Footer() {
                     <a href="mailto:contact@plateau-dor.com"><FontAwesomeIcon icon={faEnvelope} /></a>
                     <p>Envoyez-nous un email pour toute demande d'informations</p>
                 </div>
+            </div>
+            <div className="mentions-légales">
+            Toutes les photos de plats présentées sur ce site sont protégées par le droit d'auteur et sont la propriété exclusive de Plateau d'or. Toute reproduction, distribution, utilisation ou modification de ces photos sans autorisation préalable est strictement interdite. Pour toute demande d'utilisation ou de partage de nos photos, veuillez nous contacter à contact@plateau-dor.com.
             </div>
         </div>
     );

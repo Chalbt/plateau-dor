@@ -1,7 +1,7 @@
 import "../styles/NosServices.css"
 import Prestation from "./Prestation";
-import Prestation1 from "../assets/plats/plat-7.jpeg"
-import Prestation2 from "../assets/entrees/entree-14.jpeg";
+import Prestation1 from "../assets/plats/plat-1.jpeg"
+import Prestation2 from "../assets/aperitif/aperitif-5.jpeg";
 import Prestation3 from "../assets/entrees/entree-7.jpeg";
 import Assiette from "../assets/plats/plat-11.jpeg"
 import Buffet from "../assets/plats/plat-3.jpeg"
@@ -59,7 +59,7 @@ function NosServices() {
                         <h4>Forfait Buffet "Fusion Gourmande"</h4>
                         <p>Découvrez notre forfait buffet "Fusion Gourmande", une expérience culinaire variée et conviviale pour tous vos événements. Proposant un large choix d'amuse-bouches, d'entrées, de plats principaux et de desserts, notre buffet met en valeur la fusion audacieuse de la cuisine malgache et française. À partir de ?€, notre forfait buffet vous offre une délicieuse expérience gastronomique pour ravir vos convives et créer des souvenirs inoubliables.</p>
                         <p>Ce forfait buffet peut être adapté en fonction des préférences culinaires de vos clients et des spécificités de l'événement.</p>
-                        <p>Comprend : Deux cocktails, trois amuses-bouche, trois entrées, trois plats et leurs accompagnement et trois desserts.</p>
+                        <p>Comprend : Un buffet composé de trois cocktails, cinq amuses-bouche, trois entrées, trois plats et trois desserts, le tout sélectionné par vos soins. Le nombre de pièces sera calculé en fonctions du nombre de convives.</p>
                     </div>
                 </div>
                 <div className="each-menu">
@@ -81,22 +81,22 @@ function NosServices() {
                         <h5>Apéritifs</h5>
                         <ul>
                             <li>Samoussa</li>
-                            <li>Nems</li>
+                            <li>Mofosakay - Beignets au cresson et piment</li>
                         </ul>
                         <h5>Entrées</h5>
                         <ul>
-                            <li>Samoussa</li>
-                            <li>Nems</li>
+                            <li>Salade de museau</li>
+                            <li>Salade fraiche - Légumes de saison</li>
                         </ul>
                         <h5>Plats</h5>
                         <ul>
-                            <li>Samoussa</li>
-                            <li>Nems</li>
+                            <li>Boeuf Bourguignon</li>
+                            <li>Ravitoto - Spécialité malgache à base de feuille de manioc pilées accompagnée de viande ou poissons</li>
                         </ul>
                         <h5>Desserts</h5>
                         <ul>
-                            <li>Samoussa</li>
-                            <li>Nems</li>
+                            <li>Mokary - Spécialité malgache au coco, servi ausis bien en dessert qu'au petit déjeuner</li>
+                            <li>Verrine à la crème de coco et ses fruits</li>
                         </ul>
                     </div>
                 </div>
