@@ -14,7 +14,7 @@ function Footer() {
                     <p>Contactez-nous sur Whatsapp ou au +33 6 XX XX XX</p>
                 </div>
                 <div className="each-footer">
-                    <a href="#"><FontAwesomeIcon icon={faHashtag} /></a>
+                    <a href="https://www.instagram.com/_plateaudor/"><FontAwesomeIcon icon={faHashtag} /></a>
                     <p>Suivez-nous sur nos réseaux sociaux</p>
                 </div>
                 <div className="each-footer">

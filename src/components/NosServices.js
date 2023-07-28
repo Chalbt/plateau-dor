@@ -64,10 +64,10 @@ function NosServices() {
                 </div>
                 <div className="each-menu">
                     <div className="menu-description">
-                        <h4>Forfait Buffet "Fusion Gourmande"</h4>
-                        <p>Découvrez notre forfait buffet "Fusion Gourmande", une expérience culinaire variée et conviviale pour tous vos événements. Proposant un large choix d'amuse-bouches, d'entrées, de plats principaux et de desserts, notre buffet met en valeur la fusion audacieuse de la cuisine malgache et française. À partir de ?€, notre forfait buffet vous offre une délicieuse expérience gastronomique pour ravir vos convives et créer des souvenirs inoubliables.</p>
-                        <p>Ce forfait buffet peut être adapté en fonction des préférences culinaires de vos clients et des spécificités de l'événement.</p>
-                        <p>Comprend : Trois amuses-bouche, trois entrées, trois plats et leurs accompagnement et trois desserts.</p>
+                        <h4>Forfait Cocktails "Harmonie Gourmande"</h4>
+                        <p>Découvrez notre forfait cocktails "Harmonie Gourmande", une explosion de saveurs et de créativité pour enchanter vos invités lors de vos événements. Ce forfait offre une sélection variée de bouchées raffinées, préparées avec passion et ingéniosité par notre chef traiteur. Notre forfait cocktails vous propose un assortiment personnalisable en fonction du nombre de pièces souhaité et du nombre de convives attendus.</p>
+                        <p>Composé d'une sélection de délicieux amuse-bouches et canapés aux inspirations malgaches et françaises, qui raviront les palais les plus exigeants. Des bouchées gourmandes qui marient subtilement les saveurs et les textures, pour une expérience culinaire inoubliable..</p>
+                        <p>Nous vous invitons à nous contacter pour obtenir un devis personnalisé, adapté à vos besoins spécifiques et au nombre de convives présents. Notre équipe de traiteur se fera un plaisir de vous aider à créer un moment magique et mémorable pour vous et vos invités.</p>
                     </div>
                     <img src={Cocktail} alt="photo d'un plat"/>
                 </div>
