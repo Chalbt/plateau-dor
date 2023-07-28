@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4f2c9965.css",
+    "main.js": "/static/js/main.1cf0ee18.js",
+    "static/js/787.91c274c0.chunk.js": "/static/js/787.91c274c0.chunk.js",
+    "static/media/map.png": "/static/media/map.2efff76509813a7f5f97.png",
+    "static/media/dessert-19.jpeg": "/static/media/dessert-19.7224ebf7f303592dea45.jpeg",
+    "static/media/plat-7.jpeg": "/static/media/plat-7.663f6da3b7b685fe6676.jpeg",
+    "static/media/entree-14.jpeg": "/static/media/entree-14.787010b4d7b05a374b6a.jpeg",
+    "static/media/plat-accueil.png": "/static/media/plat-accueil.758302f44ad2ca5fb085.png",
+    "static/media/aperitif-7.jpeg": "/static/media/aperitif-7.32426981a40e41c4f8de.jpeg",
+    "static/media/plat-3.jpeg": "/static/media/plat-3.fccb3f42c0fdb5782a8b.jpeg",
+    "static/media/aperitif-8.jpeg": "/static/media/aperitif-8.b81f74c0d5fcf39749b2.jpeg",
+    "static/media/aperitif-1.jpeg": "/static/media/aperitif-1.97b03f3bcc40017e1c25.jpeg",
+    "static/media/plat-11.jpeg": "/static/media/plat-11.abecf20b1c0b57c706f6.jpeg",
+    "static/media/aperitif-6.jpeg": "/static/media/aperitif-6.8d966c79adda60b04b5e.jpeg",
+    "static/media/aperitif-4.jpeg": "/static/media/aperitif-4.f3c931396f7bd01f1e5f.jpeg",
+    "static/media/entree-7.jpeg": "/static/media/entree-7.aa366b0280bcbd1addf9.jpeg",
+    "static/media/logo-fond-blanc.png": "/static/media/logo-fond-blanc.e5fbeec24e18631292ee.png",
+    "static/media/aperitif-3.jpeg": "/static/media/aperitif-3.1259df0e8f16f9ab1975.jpeg",
+    "static/media/aperitif-2.jpeg": "/static/media/aperitif-2.516f4343794aa2692453.jpeg",
+    "static/media/aperitif-5.jpeg": "/static/media/aperitif-5.9bfd8c05bd4152246271.jpeg",
+    "index.html": "/index.html",
+    "main.4f2c9965.css.map": "/static/css/main.4f2c9965.css.map",
+    "main.1cf0ee18.js.map": "/static/js/main.1cf0ee18.js.map",
+    "787.91c274c0.chunk.js.map": "/static/js/787.91c274c0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4f2c9965.css",
+    "static/js/main.1cf0ee18.js"
+  ]
+}
