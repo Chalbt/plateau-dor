@@ -64,8 +64,12 @@
 
     .filter-buttons button {
         padding: 5px;
-        margin: 3px;
+        margin: 10px;
         width: 70px;
+    }
+
+    .filter-buttons {
+        margin: 40px;
     }
 
 }

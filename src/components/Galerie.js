@@ -11,6 +11,13 @@ import Guacamole from "../assets/aperitif/aperitif-16.jpeg";
 import Brochettes from "../assets/aperitif/aperitif-17.jpeg";
 import Verrines2 from "../assets/aperitif/aperitif-18.jpeg";
 import Plateau from "../assets/aperitif/aperitif-19.jpeg";
+import AmuseBouche from "../assets/aperitif/aperitif-20.jpeg";
+
+import Cocktail1 from "../assets/cocktails/cocktail-1.jpeg";
+import Cocktail2 from "../assets/cocktails/cocktail-2.jpeg";
+import Cocktail3 from "../assets/cocktails/cocktail-3.jpeg";
+import Cocktail4 from "../assets/cocktails/cocktail-4.jpeg";
+import Cocktail5 from "../assets/cocktails/cocktail-5.jpeg";
 
 import Avocat from "../assets/entrees/entree-2.jpeg";
 import Campagne from "../assets/entrees/entree-3.jpeg";
@@ -49,6 +56,10 @@ import Pintade from "../assets/plats/plat-22.jpeg";
 import PouletCoco from "../assets/plats/plat-23.jpeg";
 import Cabillaud from "../assets/plats/plat-24.jpeg";
 import Risotto from "../assets/plats/plat-25.jpeg";
+import PoissonBlanc from "../assets/plats/plat-26.jpeg";
+import PotAuFeu from "../assets/plats/plat-27.jpeg";
+import FiletBoeuf from "../assets/plats/plat-28.jpeg";
+import Cabillaud2 from "../assets/plats/plat-29.jpeg";
 
 import Mokary from "../assets/desserts/dessert-1.jpeg"
 import Mofogasy from "../assets/desserts/dessert-2.jpeg"
@@ -75,6 +86,13 @@ const imagesData = [
   { src: Brochettes, description: "Brochettes de saumon et chorizo", category: "apéritif" },
   { src: Verrines2, description: "Verrines salées", category: "apéritif" },
   { src: Plateau, description: "Plateau de charcuterie", category: "apéritif" },
+  { src: AmuseBouche, description: "Amuse bouche", category: "apéritif" },
+
+  { src: Cocktail1, description: "Cocktail maison", category: "cocktails" },
+  { src: Cocktail2, description: "Cocktail maison", category: "cocktails" },
+  { src: Cocktail3, description: "Cocktail maison", category: "cocktails" },
+  { src: Cocktail4, description: "Cocktail maison", category: "cocktails" },
+  { src: Cocktail5, description: "Cocktail maison", category: "cocktails" },
 
   { src: Avocat, description: "Salade fraiche, avocat, saumon", category: "entrées" },
   { src: Campagne, description: "Salade fraiche campagnarde", category: "entrées" },
@@ -113,6 +131,10 @@ const imagesData = [
   { src: PouletCoco, description: "Poulet au coco", category: "plats" },
   { src: Cabillaud, description: "Filet de cabillaud, riz & fondue de poireaux", category: "plats" },
   { src: Risotto, description: "Risotto aux crevettes", category: "plats" },
+  { src: PoissonBlanc, description: "Poisson blanc aux champignons", category: "plats" },
+  { src: PotAuFeu, description: "Pot-au-feu", category: "plats" },
+  { src: FiletBoeuf, description: "Filet de bœuf", category: "plats" },
+  { src: Cabillaud2, description: "Cabillaud à la sauce", category: "plats" },
 
   { src: Mokary, description: "Mokary au coco (Beignets de riz)", category: "desserts" },
   { src: Mofogasy, description: "Mofogasy (Pain Malgache)", category: "desserts" },
@@ -145,6 +167,7 @@ function Galerie() {
     <div className="galerie">
       <div className="filter-buttons">
         <button onClick={() => handleFilterClick("apéritif")}>Apéritif</button>
+        <button onClick={() => handleFilterClick("cocktails")}>Cocktails</button>
         <button onClick={() => handleFilterClick("entrées")}>Entrées</button>
         <button onClick={() => handleFilterClick("snacks")}>Snacks</button>
         <button onClick={() => handleFilterClick("plats")}>Plats</button>
