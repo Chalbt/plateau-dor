@@ -14,7 +14,6 @@ import Plateau from "../assets/aperitif/aperitif-19.jpeg";
 import AmuseBouche from "../assets/aperitif/aperitif-20.jpeg";
 
 import Cocktail1 from "../assets/cocktails/cocktail-1.jpeg";
-import Cocktail2 from "../assets/cocktails/cocktail-2.jpeg";
 import Cocktail3 from "../assets/cocktails/cocktail-3.jpeg";
 import Cocktail4 from "../assets/cocktails/cocktail-4.jpeg";
 import Cocktail5 from "../assets/cocktails/cocktail-5.jpeg";
@@ -89,7 +88,6 @@ const imagesData = [
   { src: AmuseBouche, description: "Amuse bouche", category: "apéritif" },
 
   { src: Cocktail1, description: "Cocktail maison", category: "cocktails" },
-  { src: Cocktail2, description: "Cocktail maison", category: "cocktails" },
   { src: Cocktail3, description: "Cocktail maison", category: "cocktails" },
   { src: Cocktail4, description: "Cocktail maison", category: "cocktails" },
   { src: Cocktail5, description: "Cocktail maison", category: "cocktails" },
