@@ -39,6 +39,7 @@
     border: 2px solid #d96220;
     color: black;
     margin-bottom: 20px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
 }
 
 .each-informations li {
