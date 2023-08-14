@@ -46,6 +46,9 @@ import Pasta from "../assets/plats/plat-17.jpeg";
 import NouillesSautees from "../assets/plats/plat-18.jpeg";
 import Sakay from "../assets/plats/plat-21.jpeg";
 import Pintade from "../assets/plats/plat-22.jpeg";
+import PouletCoco from "../assets/plats/plat-23.jpeg";
+import Cabillaud from "../assets/plats/plat-24.jpeg";
+import Risotto from "../assets/plats/plat-25.jpeg";
 
 import Mokary from "../assets/desserts/dessert-1.jpeg"
 import Mofogasy from "../assets/desserts/dessert-2.jpeg"
@@ -59,6 +62,7 @@ import Creme3 from "../assets/desserts/dessert-17.jpeg"
 import SaladeFruits from "../assets/desserts/dessert-22.jpeg"
 import Macaron1 from "../assets/desserts/dessert-23.jpeg"
 import Macaron2 from "../assets/desserts/dessert-24.jpeg"
+import Beignets from "../assets/desserts/dessert-25.jpeg"
 
 const imagesData = [
   { src: Verrines, description: "Verrines sucrées", category: "apéritif" },
@@ -106,6 +110,9 @@ const imagesData = [
   { src: NouillesSautees, description: "Minsao, nouilles sautées aux légumes et crevettes", category: "plats" },
   { src: Sakay, description: "Sakay, piment malgache", category: "plats" },
   { src: Pintade, description: "Cuisse de pintade et ses légumes", category: "plats" },
+  { src: PouletCoco, description: "Poulet au coco", category: "plats" },
+  { src: Cabillaud, description: "Filet de cabillaud, riz & fondue de poireaux", category: "plats" },
+  { src: Risotto, description: "Risotto aux crevettes", category: "plats" },
 
   { src: Mokary, description: "Mokary au coco (Beignets de riz)", category: "desserts" },
   { src: Mofogasy, description: "Mofogasy (Pain Malgache)", category: "desserts" },
@@ -119,6 +126,7 @@ const imagesData = [
   { src: SaladeFruits, description: "Salade de fruits, ananas", category: "desserts" },
   { src: Macaron1, description: "Macarons, gourmandise sucrée", category: "desserts" },
   { src: Macaron2, description: "Macarons, gourmandise sucrée", category: "desserts" },
+  { src: Beignets, description: "Beignets de banane", category: "desserts" },
 
 ];
 
