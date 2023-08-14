@@ -10,8 +10,8 @@ function Footer() {
             <h2>Nous contacter</h2>
             <div className="footer-icon">
                 <div className="each-footer">
-                    <Link to="https://wa.me/33688255149" target="_blank"><FontAwesomeIcon icon={faPhone} /></Link>
-                    <p>Contactez-nous sur Whatsapp ou au +33 6 XX XX XX</p>
+                    <Link to="https://wa.me/33652066125" target="_blank"><FontAwesomeIcon icon={faPhone} /></Link>
+                    <p>Contactez-nous sur Whatsapp ou au +33 6 52 06 61 25</p>
                 </div>
                 <div className="each-footer">
                     <a href="https://www.instagram.com/_plateaudor/"><FontAwesomeIcon icon={faHashtag} /></a>

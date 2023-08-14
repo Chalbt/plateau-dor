@@ -10,7 +10,7 @@ function Contacts() {
                     <p>Nous sommes ravis de vous aider à organiser votre événement culinaire. Pour toute question, demande de réservation ou renseignement complémentaire, n'hésitez pas à nous contacter. Voici les informations importantes pour vous guider :</p>
                     <h4>Contact :</h4>
                     <ul>
-                        <li>Téléphone : Numéro de téléphone</li>
+                        <li>Téléphone : +33 6 52 06 61 25</li>
                         <li>E-mail : contact@plateau-dor.com</li>
                     </ul>
                     <p>Nous sommes impatients de discuter avec vous et de faire de votre événement une réussite culinaire. Contactez-nous dès maintenant pour commencer à planifier et à créer des moments savoureux et mémorables ensemble.</p>

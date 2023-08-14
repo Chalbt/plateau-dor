@@ -46,10 +46,10 @@ function NosServices() {
            <div className="menus">
                 <div className="each-menu">
                     <div className="menu-description">
-                        <h4>Forfait Assiette "Assiette Gourmande"</h4>
-                        <p>Découvrez notre forfait d'exception "Assiette Gourmande", une expérience culinaire complète qui ravira vos papilles. Commencez par savourer un apéritif raffiné, où les amuse-bouches délicats éveilleront vos sens. Poursuivez votre voyage gastronomique avec une entrée subtilement élaborée, mettant en valeur des ingrédients frais et des associations de saveurs audacieuses. Ensuite, laissez-vous tenter par notre plat principal, une fusion culinaire alliant la cuisine malgache à l'élégance de la cuisine française, pour une expérience gustative inoubliable. Enfin, terminez votre repas en beauté avec notre sélection de desserts exquis, où créativité et gourmandise se rencontrent pour clôturer ce festin en douceur.</p>
-                        <p>Le forfait "Assiette Gourmande" est disponible à partir de ?€, offrant une expérience culinaire haut de gamme adaptée à vos événements les plus spéciaux. Notre équipe dévouée veille à chaque détail, de la préparation des plats à leur présentation, pour faire de votre événement un moment inoubliable empreint de saveurs délicates et d'harmonie culinaire</p>
-                        <p>Comprend : Deux apéritifs, une entrée, un plat et un dessert. Service à table et boissons compris.</p>
+                        <h4>Forfait Assiette "Découverte Gourmande"</h4>
+                        <p>Découvrez notre forfait d'exception "Découverte Gourmande", une expérience culinaire complète qui ravira vos papilles. Commencez par savourer un apéritif raffiné, où les amuse-bouches délicats éveilleront vos sens. Poursuivez votre voyage gastronomique avec une entrée subtilement élaborée, mettant en valeur des ingrédients frais et des associations de saveurs audacieuses. Ensuite, laissez-vous tenter par notre plat principal, une fusion culinaire alliant la cuisine malgache à l'élégance de la cuisine française, pour une expérience gustative inoubliable. Enfin, terminez votre repas en beauté avec notre sélection de desserts exquis, où créativité et gourmandise se rencontrent pour clôturer ce festin en douceur.</p>
+                        <p>Le forfait "Découverte Gourmande" est disponible à partir de 50€, offrant une expérience culinaire haut de gamme adaptée à vos événements les plus spéciaux. Notre équipe dévouée veille à chaque détail, de la préparation des plats à leur présentation, pour faire de votre événement un moment inoubliable empreint de saveurs délicates et d'harmonie culinaire</p>
+                        <p>Comprend : Deux apéritifs, une entrée, un plat, plateau de fromage et dessert. Service compris.</p>
                     </div>
                     <img src={Assiette} alt="photo d'un plat"/>
                 </div>
@@ -57,7 +57,7 @@ function NosServices() {
                     <img src={Buffet} alt="photo d'un plat"/>
                     <div className="menu-description">
                         <h4>Forfait Buffet "Fusion Gourmande"</h4>
-                        <p>Découvrez notre forfait buffet "Fusion Gourmande", une expérience culinaire variée et conviviale pour tous vos événements. Proposant un large choix d'amuse-bouches, d'entrées, de plats principaux et de desserts, notre buffet met en valeur la fusion audacieuse de la cuisine malgache et française. À partir de ?€, notre forfait buffet vous offre une délicieuse expérience gastronomique pour ravir vos convives et créer des souvenirs inoubliables.</p>
+                        <p>Découvrez notre forfait buffet "Fusion Gourmande", une expérience culinaire variée et conviviale pour tous vos événements. Proposant un large choix d'amuse-bouches, d'entrées, de plats principaux et de desserts, notre buffet met en valeur la fusion audacieuse de la cuisine malgache et française. À partir de 35€, notre forfait buffet vous offre une délicieuse expérience gastronomique pour ravir vos convives et créer des souvenirs inoubliables.</p>
                         <p>Ce forfait buffet peut être adapté en fonction des préférences culinaires de vos clients et des spécificités de l'événement.</p>
                         <p>Comprend : Un buffet composé de trois cocktails, cinq amuses-bouche, trois entrées, trois plats et trois desserts, le tout sélectionné par vos soins. Le nombre de pièces sera calculé en fonctions du nombre de convives.</p>
                     </div>
@@ -95,7 +95,7 @@ function NosServices() {
                         </ul>
                         <h5>Desserts</h5>
                         <ul>
-                            <li>Mokary - Spécialité malgache au coco, servi ausis bien en dessert qu'au petit déjeuner</li>
+                            <li>Mokary - Spécialité malgache au coco, servi aussi bien en dessert qu'au petit déjeuner</li>
                             <li>Verrine à la crème de coco et ses fruits</li>
                         </ul>
                     </div>

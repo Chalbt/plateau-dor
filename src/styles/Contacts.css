@@ -31,8 +31,7 @@
 }
 
 .each-informations {
-    background: linear-gradient(to bottom, #d96220, #ebdfc9);
-    background-color: white;
+    background-color: #d96220;
     padding: 15px 10px 10px 10px;
     width: 300px;
     text-align: center;

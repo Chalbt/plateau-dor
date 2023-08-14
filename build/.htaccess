@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteBase /
+
+# Rediriger vers index.html sauf si le chemin correspond à un fichier existant
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.html [QSA,L]

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useEffect } from "react";
 import "../styles/Galerie.css";
 import Verrines from "../assets/aperitif/aperitif-1.jpeg";
 import Nems from "../assets/aperitif/aperitif-7.jpeg";
@@ -20,6 +21,14 @@ import Soupe from "../assets/entrees/entree-7.jpeg";
 import Burrata from "../assets/entrees/entree-8.jpeg";
 import Crevettes2 from "../assets/entrees/entree-11.jpeg";
 import Champignons from "../assets/entrees/entree-13.jpeg";
+import Macedoine from "../assets/entrees/entree-18.jpeg";
+import Tartare from "../assets/entrees/entree-19.jpeg";
+
+import Panini from "../assets/snack/snack-1.jpeg";
+import Suédois from "../assets/snack/snack-2.jpeg";
+import Burgers from "../assets/snack/snack-3.jpeg";
+import Planche from "../assets/snack/snack-4.jpeg";
+import Frites from "../assets/snack/snack-5.jpeg";
 
 import Carottes from "../assets/plats/plat-1.jpeg";
 import Crevettes3 from "../assets/plats/plat-2.jpeg";
@@ -31,38 +40,36 @@ import Saumon from "../assets/plats/plat-7.jpeg";
 import Poisson from "../assets/plats/plat-8.jpeg";
 import Courgette from "../assets/plats/plat-9.jpeg";
 import Bourguignon from "../assets/plats/plat-11.jpeg";
-import Panini from "../assets/plats/plat-12.jpeg";
 import Crabe from "../assets/plats/plat-13.jpeg";
 import Ravitoto from "../assets/plats/plat-15.jpeg";
 import Pasta from "../assets/plats/plat-17.jpeg";
 import NouillesSautees from "../assets/plats/plat-18.jpeg";
+import Sakay from "../assets/plats/plat-21.jpeg";
+import Pintade from "../assets/plats/plat-22.jpeg";
 
 import Mokary from "../assets/desserts/dessert-1.jpeg"
-import Dessert1 from "../assets/desserts/dessert-2.jpeg"
-import Mokary2 from "../assets/desserts/dessert-3.jpeg"
-import Flan from "../assets/desserts/dessert-4.jpeg"
+import Mofogasy from "../assets/desserts/dessert-2.jpeg"
+import Mofobola from "../assets/desserts/dessert-3.jpeg"
+import Cassava from "../assets/desserts/dessert-4.jpeg"
 import Tarte from "../assets/desserts/dessert-7.jpeg"
-import Dessert2 from "../assets/desserts/dessert-9.jpeg"
-import Dessert3 from "../assets/desserts/dessert-10.jpeg"
-import Dessert4 from "../assets/desserts/dessert-11.jpeg"
-import Dessert5 from "../assets/desserts/dessert-12.jpeg"
-import Dessert6 from "../assets/desserts/dessert-13.jpeg"
-import Dessert7 from "../assets/desserts/dessert-14.jpeg"
-import Dessert8 from "../assets/desserts/dessert-15.jpeg"
-import Dessert9 from "../assets/desserts/dessert-16.jpeg"
-import Dessert10 from "../assets/desserts/dessert-17.jpeg"
+import Creme from "../assets/desserts/dessert-13.jpeg"
+import Creme2 from "../assets/desserts/dessert-11.jpeg"
+import Chou from "../assets/desserts/dessert-15.jpeg"
+import Creme3 from "../assets/desserts/dessert-17.jpeg"
 import SaladeFruits from "../assets/desserts/dessert-22.jpeg"
+import Macaron1 from "../assets/desserts/dessert-23.jpeg"
+import Macaron2 from "../assets/desserts/dessert-24.jpeg"
 
 const imagesData = [
-  { src: Verrines, description: "Verrines", category: "apéritif" },
-  { src: Nems, description: "Nems", category: "apéritif" },
+  { src: Verrines, description: "Verrines sucrées", category: "apéritif" },
+  { src: Nems, description: "Nems au boeuf", category: "apéritif" },
   { src: PatateDouce, description: "Patates douces et pesto", category: "apéritif" },
   { src: Miniatures, description: "Miniatures", category: "apéritif" },
   { src: Triangles, description: "Triangles apéritifs", category: "apéritif" },
   { src: Bruschetta, description: "Bruschettas mixtes", category: "apéritif" },
   { src: Guacamole, description: "Guacamole maison", category: "apéritif" },
-  { src: Brochettes, description: "Brochettes", category: "apéritif" },
-  { src: Verrines2, description: "Verrines", category: "apéritif" },
+  { src: Brochettes, description: "Brochettes de saumon et chorizo", category: "apéritif" },
+  { src: Verrines2, description: "Verrines salées", category: "apéritif" },
   { src: Plateau, description: "Plateau de charcuterie", category: "apéritif" },
 
   { src: Avocat, description: "Salade fraiche, avocat, saumon", category: "entrées" },
@@ -73,54 +80,65 @@ const imagesData = [
   { src: Soupe, description: "Soupe courgette", category: "entrées" },
   { src: Burrata, description: "Salade fraiche, burrata et fraises", category: "entrées" },
   { src: Crevettes2, description: "Toast avocat et crevettes", category: "entrées" },
-  { src: Champignons, description: "Salade fraicheeeee, champignons, saumon", category: "entrées" },
+  { src: Champignons, description: "Salade fraiche, champignons, saumon", category: "entrées" },
+  { src: Macedoine, description: "Macédoine de légumes", category: "entrées" },
+  { src: Tartare, description: "Tartare de saumon étagé fraises et avocat", category: "entrées" },
+
+  { src: Panini, description: "Sandwichs carotte, oeuf", category: "snacks" },
+  { src: Suédois, description: "Sandwichs pain suédois, viande", category: "snacks" },
+  { src: Burgers, description: "Burgers", category: "snacks" },
+  { src: Planche, description: "Planche mixte", category: "snacks" },
+  { src: Frites, description: "Frites de patates douces", category: "snacks" },
 
   { src: Carottes, description: "Saumon accompagné de riz et carottes", category: "plats" },
   { src: Crevettes3, description: "Crevettes sautées", category: "plats" },
   { src: Gambas, description: "Gambas dorées", category: "plats" },
   { src: SaucisseRougail, description: "Saucisses rougail", category: "plats" },
   { src: SaucisseRougail2, description: "Saucisses rougail", category: "plats" },
-  { src: Boeuf, description: "Boeuf sauté aux oignons", category: "plats" },
+  { src: Boeuf, description: "Viande braisée Malgache (Hena ritra)", category: "plats" },
   { src: Saumon, description: "Pavé de saumon et poelée de légumes, riz", category: "plats" },
   { src: Poisson, description: "Poisson frit et ses légumes", category: "plats" },
   { src: Courgette, description: "Courgette farcie", category: "plats" },
   { src: Bourguignon, description: "Boeuf bourguignon", category: "plats" },
-  { src: Panini, description: "Panini", category: "plats" },
-  { src: Crabe, description: "Fricassé de crabe", category: "plats" },
-  { src: Ravitoto, description: "Ravitoto", category: "plats" },
-  { src: Pasta, description: "Pâtes au saumon", category: "plats" },
-  { src: NouillesSautees, description: "Nouilles sautées aux légumes et crevettes", category: "plats" },
+  { src: Crabe, description: "Crabes à la façon Malgache", category: "plats" },
+  { src: Ravitoto, description: "Ravitoto, feuilles de manioc pilées", category: "plats" },
+  { src: Pasta, description: "Pâtes au saumon fumé", category: "plats" },
+  { src: NouillesSautees, description: "Minsao, nouilles sautées aux légumes et crevettes", category: "plats" },
+  { src: Sakay, description: "Sakay, piment malgache", category: "plats" },
+  { src: Pintade, description: "Cuisse de pintade et ses légumes", category: "plats" },
 
-  { src: Mokary, description: "Pâtes au saumon", category: "desserts" },
-  { src: Dessert1, description: "Pâtes au saumon", category: "desserts" },
-  { src: Mokary2, description: "Pâtes au saumon", category: "desserts" },
-  { src: Flan, description: "Pâtes au saumon", category: "desserts" },
-  { src: Tarte, description: "Pâtes au saumon", category: "desserts" },
-  { src: Dessert2, description: "Pâtes au saumon", category: "desserts" },
-  { src: Dessert3, description: "Pâtes au saumon", category: "desserts" },
-  { src: Dessert4, description: "Pâtes au saumon", category: "desserts" },
-  { src: Dessert5, description: "Pâtes au saumon", category: "desserts" },
-  { src: Dessert6, description: "Pâtes au saumon", category: "desserts" },
-  { src: Dessert7, description: "Pâtes au saumon", category: "desserts" },
-  { src: Dessert8, description: "Pâtes au saumon", category: "desserts" },
-  { src: Dessert9, description: "Pâtes au saumon", category: "desserts" },
-  { src: Dessert10, description: "Pâtes au saumon", category: "desserts" },
-  { src: SaladeFruits, description: "Pâtes au saumon", category: "desserts" },
+  { src: Mokary, description: "Mokary au coco (Beignets de riz)", category: "desserts" },
+  { src: Mofogasy, description: "Mofogasy (Pain Malgache)", category: "desserts" },
+  { src: Mofobola, description: "Mofobola (Beignets soufflés)", category: "desserts" },
+  { src: Cassava, description: "Cassava cake", category: "desserts" },
+  { src: Tarte, description: "Tarte aux pommes", category: "desserts" },
+  { src: Creme2, description: "Crémeux fruits exotiques", category: "desserts" },
+  { src: Creme, description: "Crèmes aux fruits, coco", category: "desserts" },
+  { src: Chou, description: "Pâte à choux à la crème", category: "desserts" },
+  { src: Creme3, description: "Crème de tapioca aux fruits", category: "desserts" },
+  { src: SaladeFruits, description: "Salade de fruits, ananas", category: "desserts" },
+  { src: Macaron1, description: "Macarons, gourmandise sucrée", category: "desserts" },
+  { src: Macaron2, description: "Macarons, gourmandise sucrée", category: "desserts" },
 
 ];
 
 function Galerie() {
-  const [selectedCategory, setSelectedCategory] = useState("all");
+  const [selectedCategory, setSelectedCategory] = useState("apéritif");
 
   const handleFilterClick = (category) => {
     setSelectedCategory(category);
   };
+
+  useEffect(() => {
+    setSelectedCategory("apéritif");
+  }, []);
 
   return (
     <div className="galerie">
       <div className="filter-buttons">
         <button onClick={() => handleFilterClick("apéritif")}>Apéritif</button>
         <button onClick={() => handleFilterClick("entrées")}>Entrées</button>
+        <button onClick={() => handleFilterClick("snacks")}>Snacks</button>
         <button onClick={() => handleFilterClick("plats")}>Plats</button>
         <button onClick={() => handleFilterClick("desserts")}>Desserts</button>
       </div>
