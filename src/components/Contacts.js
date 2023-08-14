@@ -19,7 +19,7 @@ function Contacts() {
             <div className="informations">
                 <div className="each-informations">
                     <h4>Horaires</h4>
-                    <p>Nous sommes disponibles du lundi au vendredi, de Heure d'ouverture à Heure de fermeture. Pour les demandes urgentes ou en dehors de ces horaires, veuillez nous contacter et nous ferons de notre mieux pour vous répondre dans les plus brefs délais.</p>
+                    <p>Nous sommes disponibles par email et téléphone du lundi au vendredi, de 9h00 à 19h00 et le samedi de 9h00 à 13h. Pour les demandes urgentes ou en dehors de ces horaires, veuillez nous contacter et nous ferons de notre mieux pour vous répondre dans les plus brefs délais.</p>
                 </div>
                 <div className="each-informations">
                     <h4>Tarifs</h4>

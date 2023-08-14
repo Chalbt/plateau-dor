@@ -93,7 +93,7 @@ const imagesData = [
   { src: Carottes, description: "Saumon accompagné de riz et carottes", category: "plats" },
   { src: Crevettes3, description: "Crevettes sautées", category: "plats" },
   { src: Gambas, description: "Gambas dorées", category: "plats" },
-  { src: SaucisseRougail, description: "Saucisses rougail", category: "plats" },
+  { src: SaucisseRougail, description: "Saucisse et sa sauce façon Malgache", category: "plats" },
   { src: SaucisseRougail2, description: "Saucisses rougail", category: "plats" },
   { src: Boeuf, description: "Viande braisée Malgache (Hena ritra)", category: "plats" },
   { src: Saumon, description: "Pavé de saumon et poelée de légumes, riz", category: "plats" },
