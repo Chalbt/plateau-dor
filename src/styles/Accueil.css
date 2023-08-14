@@ -56,6 +56,18 @@
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
+   .plat-accueil {
+        width: 450px;
+   }
+
+   .accroche p {
+        font-size: 30px;
+   }
+
+   .presentation img {
+        display: none;
+   }
+
 }
 
 @media screen and (max-width: 767px) {

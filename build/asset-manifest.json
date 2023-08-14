@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.35bfd54d.css",
-    "main.js": "/static/js/main.8704942c.js",
+    "main.css": "/static/css/main.e2678e81.css",
+    "main.js": "/static/js/main.9443d1ab.js",
     "static/js/787.91c274c0.chunk.js": "/static/js/787.91c274c0.chunk.js",
     "static/media/map.png": "/static/media/map.2efff76509813a7f5f97.png",
     "static/media/entree-5.jpeg": "/static/media/entree-5.49dbcce92087505ebd8a.jpeg",
@@ -22,9 +22,11 @@
     "static/media/dessert-23.jpeg": "/static/media/dessert-23.0f1828ef5dce6824fd0a.jpeg",
     "static/media/aperitif-9.jpeg": "/static/media/aperitif-9.9ff82b37bb3bc8511b76.jpeg",
     "static/media/snack-5.jpeg": "/static/media/snack-5.c6ce28a151c3c0d8076e.jpeg",
-    "static/media/plat-accueil2.jpeg": "/static/media/plat-accueil2.937725cb040883c151d6.jpeg",
+    "static/media/plat-23.jpeg": "/static/media/plat-23.3443617edc1dab7fd5db.jpeg",
     "static/media/plat-4.jpeg": "/static/media/plat-4.d07543644e25b0546a88.jpeg",
+    "static/media/plat-24.jpeg": "/static/media/plat-24.5bd68781f56a634ed744.jpeg",
     "static/media/plat-9.jpeg": "/static/media/plat-9.8ab0d3787c9dba10652a.jpeg",
+    "static/media/plat-accueil2.jpeg": "/static/media/plat-accueil2.64689a2c4c6a87577759.jpeg",
     "static/media/dessert-15.jpeg": "/static/media/dessert-15.d14aaa83d6c843f6c257.jpeg",
     "static/media/entree-8.jpeg": "/static/media/entree-8.cfd03c0169e6126d1ede.jpeg",
     "static/media/entree-19.jpeg": "/static/media/entree-19.c303ffbf525dd305b6e7.jpeg",
@@ -35,6 +37,7 @@
     "static/media/plat-3.jpeg": "/static/media/plat-3.fccb3f42c0fdb5782a8b.jpeg",
     "static/media/plat-8.jpeg": "/static/media/plat-8.64f0a5557d2a9c3c35b7.jpeg",
     "static/media/snack-3.jpeg": "/static/media/snack-3.05dbdce4e54445686dc6.jpeg",
+    "static/media/dessert-25.jpeg": "/static/media/dessert-25.7c111e32374150a49210.jpeg",
     "static/media/dessert-24.jpeg": "/static/media/dessert-24.89e3954b0c2d5bb74869.jpeg",
     "static/media/entree-16.jpeg": "/static/media/entree-16.93924884d8db79f7c7d5.jpeg",
     "static/media/aperitif-8.jpeg": "/static/media/aperitif-8.b81f74c0d5fcf39749b2.jpeg",
@@ -54,6 +57,7 @@
     "static/media/entree-18.jpeg": "/static/media/entree-18.b73f4952bebb75f0dc20.jpeg",
     "static/media/aperitif-1.jpeg": "/static/media/aperitif-1.97b03f3bcc40017e1c25.jpeg",
     "static/media/snack-4.jpeg": "/static/media/snack-4.3bbfaf15e01c2dfd04b3.jpeg",
+    "static/media/plat-25.jpeg": "/static/media/plat-25.c2fa701c6160abcc0573.jpeg",
     "static/media/dessert-7.jpeg": "/static/media/dessert-7.142965778c6e79292110.jpeg",
     "static/media/aperitif-16.jpeg": "/static/media/aperitif-16.a31dc3fad6316d259698.jpeg",
     "static/media/plat-11.jpeg": "/static/media/plat-11.abecf20b1c0b57c706f6.jpeg",
@@ -69,12 +73,12 @@
     "static/media/plat-10.jpeg": "/static/media/plat-10.1d7eb5809be9fd6c50fe.jpeg",
     "static/media/aperitif-5.jpeg": "/static/media/aperitif-5.9bfd8c05bd4152246271.jpeg",
     "index.html": "/index.html",
-    "main.35bfd54d.css.map": "/static/css/main.35bfd54d.css.map",
-    "main.8704942c.js.map": "/static/js/main.8704942c.js.map",
+    "main.e2678e81.css.map": "/static/css/main.e2678e81.css.map",
+    "main.9443d1ab.js.map": "/static/js/main.9443d1ab.js.map",
     "787.91c274c0.chunk.js.map": "/static/js/787.91c274c0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.35bfd54d.css",
-    "static/js/main.8704942c.js"
+    "static/css/main.e2678e81.css",
+    "static/js/main.9443d1ab.js"
   ]
 }
