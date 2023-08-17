@@ -17,6 +17,7 @@ import Cocktail1 from "../assets/cocktails/cocktail-1.jpeg";
 import Cocktail3 from "../assets/cocktails/cocktail-3.jpeg";
 import Cocktail4 from "../assets/cocktails/cocktail-4.jpeg";
 import Cocktail5 from "../assets/cocktails/cocktail-5.jpeg";
+import Cocktail6 from "../assets/cocktails/cocktail-6.jpeg";
 
 import Avocat from "../assets/entrees/entree-2.jpeg";
 import Campagne from "../assets/entrees/entree-3.jpeg";
@@ -91,6 +92,7 @@ const imagesData = [
   { src: Cocktail3, description: "Cocktail maison", category: "cocktails" },
   { src: Cocktail4, description: "Cocktail maison", category: "cocktails" },
   { src: Cocktail5, description: "Cocktail maison", category: "cocktails" },
+  { src: Cocktail6, description: "Cocktail maison", category: "cocktails" },
 
   { src: Avocat, description: "Salade fraiche, avocat, saumon", category: "entrées" },
   { src: Campagne, description: "Salade fraiche campagnarde", category: "entrées" },

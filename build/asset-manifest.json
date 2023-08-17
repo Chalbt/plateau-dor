@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.7113bee6.css",
-    "main.js": "/static/js/main.efd25ad3.js",
+    "main.css": "/static/css/main.b078135c.css",
+    "main.js": "/static/js/main.bcc496c1.js",
     "static/js/787.91c274c0.chunk.js": "/static/js/787.91c274c0.chunk.js",
     "static/media/map.png": "/static/media/map.2efff76509813a7f5f97.png",
     "static/media/entree-5.jpeg": "/static/media/entree-5.49dbcce92087505ebd8a.jpeg",
     "static/media/plat-2.jpeg": "/static/media/plat-2.4aa3204c374b0e65b29c.jpeg",
     "static/media/entree-4.jpeg": "/static/media/entree-4.88fa487571c5372f685f.jpeg",
     "static/media/dessert-22.jpeg": "/static/media/dessert-22.508b9ba3f00ac2fa9fbc.jpeg",
-    "static/media/plat-5.jpeg": "/static/media/plat-5.585e6afcdb83c53a7a7d.jpeg",
     "static/media/plat-1.jpeg": "/static/media/plat-1.dc272fd5d838282954c7.jpeg",
+    "static/media/plat-5.jpeg": "/static/media/plat-5.d2279b09c593c840884c.jpeg",
     "static/media/plat-15.jpeg": "/static/media/plat-15.f6d81d8e55c5fc48bb11.jpeg",
     "static/media/plat-26.jpeg": "/static/media/plat-26.3e9f7a840cb8aadd765f.jpeg",
     "static/media/dessert-19.jpeg": "/static/media/dessert-19.7224ebf7f303592dea45.jpeg",
@@ -75,6 +75,7 @@
     "static/media/aperitif-20.jpeg": "/static/media/aperitif-20.6ee94dd424f1d6e74d88.jpeg",
     "static/media/entree-2.jpeg": "/static/media/entree-2.dacee28e832f98e025e3.jpeg",
     "static/media/entree-13.jpeg": "/static/media/entree-13.e935f67823e3787dd442.jpeg",
+    "static/media/cocktail-6.jpeg": "/static/media/cocktail-6.4dfd22a3cb338f2cba7c.jpeg",
     "static/media/entree-15.jpeg": "/static/media/entree-15.36f200f62c6d1ea8e1db.jpeg",
     "static/media/entree-11.jpeg": "/static/media/entree-11.c7dc88918a4f93b82c7d.jpeg",
     "static/media/logo-fond-blanc.png": "/static/media/logo-fond-blanc.e5fbeec24e18631292ee.png",
@@ -82,12 +83,12 @@
     "static/media/plat-10.jpeg": "/static/media/plat-10.1d7eb5809be9fd6c50fe.jpeg",
     "static/media/aperitif-5.jpeg": "/static/media/aperitif-5.9bfd8c05bd4152246271.jpeg",
     "index.html": "/index.html",
-    "main.7113bee6.css.map": "/static/css/main.7113bee6.css.map",
-    "main.efd25ad3.js.map": "/static/js/main.efd25ad3.js.map",
+    "main.b078135c.css.map": "/static/css/main.b078135c.css.map",
+    "main.bcc496c1.js.map": "/static/js/main.bcc496c1.js.map",
     "787.91c274c0.chunk.js.map": "/static/js/787.91c274c0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7113bee6.css",
-    "static/js/main.efd25ad3.js"
+    "static/css/main.b078135c.css",
+    "static/js/main.bcc496c1.js"
   ]
 }

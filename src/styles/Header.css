@@ -6,7 +6,7 @@
 }
 
 .logo-header {
-    width: 100px;
+    width: 250px;
 }
 
 .menu-header {
@@ -20,7 +20,7 @@
 }
 
 .menu-header li {
-    margin-right: 30px;
+    margin-right: 20px;
     font-size: 20px;
 }
 
@@ -37,6 +37,14 @@
 
     .header ul {
         flex-direction: column;
+    }
+
+    .menu-header li {
+        font-size: 15px;
+    }
+
+    .logo-header {
+        width: 200px;
     }
 
 }

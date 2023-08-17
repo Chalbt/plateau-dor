@@ -2,6 +2,11 @@
     background-color: white;
 }
 
+.commande {
+    font-weight: bold;
+    color: #d96220;
+}
+
 .nos-prestations {
     background-color: #ebdfc9;
     padding: 30px;

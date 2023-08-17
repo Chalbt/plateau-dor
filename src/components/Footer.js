@@ -11,7 +11,7 @@ function Footer() {
             <div className="footer-icon">
                 <div className="each-footer">
                     <Link to="https://wa.me/33652066125" target="_blank"><FontAwesomeIcon icon={faPhone} /></Link>
-                    <p>Contactez-nous sur Whatsapp ou au +33 6 52 06 61 25</p>
+                    <p>Contactez-nous sur Whatsapp<br/> ou +33 6 52 06 61 25</p>
                 </div>
                 <div className="each-footer">
                     <a href="https://www.instagram.com/_plateaudor/"><FontAwesomeIcon icon={faHashtag} /></a>
