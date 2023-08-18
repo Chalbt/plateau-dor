@@ -32,15 +32,20 @@
 @media screen and (max-width: 767px) {
 
     .header {
+        display: flex;
+        flex-direction: column-reverse;
         align-items: center;
     }
 
-    .header ul {
-        flex-direction: column;
+    .menu-header li {
+        font-size: 13px;
+        margin-bottom: 8px;
+        margin-right: 10px;
+        margin-left: 10px;
     }
 
-    .menu-header li {
-        font-size: 15px;
+    .menu-header ul {
+        padding-left: 0;
     }
 
     .logo-header {

@@ -10,15 +10,15 @@ function Footer() {
             <h2>Nous contacter</h2>
             <div className="footer-icon">
                 <div className="each-footer">
-                    <Link to="https://wa.me/33652066125" target="_blank"><FontAwesomeIcon icon={faPhone} /></Link>
+                    <Link to="https://wa.me/33652066125" target="_blank" aria-label="Contactez-nous sur Whatsapp ou +33 6 52 06 61 25"><FontAwesomeIcon icon={faPhone} /></Link>
                     <p>Contactez-nous sur Whatsapp<br/> ou +33 6 52 06 61 25</p>
                 </div>
                 <div className="each-footer">
-                    <a href="https://www.instagram.com/_plateaudor/"><FontAwesomeIcon icon={faHashtag} /></a>
-                    <p>Suivez-nous sur nos réseaux sociaux</p>
+                    <a href="https://www.instagram.com/_plateaudor/" aria-label="Suivez-nous sur Instagram"><FontAwesomeIcon icon={faHashtag} /></a>
+                    <p>Suivez-nous sur Instagram</p>
                 </div>
                 <div className="each-footer">
-                    <a href="mailto:contact@plateau-dor.com"><FontAwesomeIcon icon={faEnvelope} /></a>
+                    <a href="mailto:contact@plateau-dor.com" aria-label="Envoyez-nous un email pour toute demande d'informations"><FontAwesomeIcon icon={faEnvelope} /></a>
                     <p>Envoyez-nous un email pour toute demande d'informations</p>
                 </div>
             </div>
