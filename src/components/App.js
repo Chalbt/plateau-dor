@@ -6,6 +6,7 @@ import Footer from './Footer';
 import Galerie from "./Galerie";
 import Contacts from "./Contacts";
 import NosServices from "./NosServices";
+import MentionsLégales from "./MentionsLégales";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/nos-services" exact element={<NosServices />} />
           <Route path="/galerie" exact element={<Galerie />} />
           <Route path="/contacts" exact element={<Contacts />} />
+          <Route path="/mentions-légales" exact element={<MentionsLégales />} />
         </Routes>
         <Footer />
       </Router>

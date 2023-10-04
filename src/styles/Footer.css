@@ -5,6 +5,13 @@
     color: #5C3321;
 }
 
+.mentions-legales-button {
+    text-decoration: underline;
+    background-color: transparent;
+    color: #5C3321;
+    padding-bottom: 10px;
+}
+
 .footer-icon {
     text-align: center;
     display: flex;
@@ -14,7 +21,7 @@
     margin: 20px 0 30px 0;
 }
 
-.footer a {
+.footer-a {
     text-decoration: none;
     background-color: #5C3321;
     border-radius: 35%;
@@ -30,11 +37,6 @@
 .each-footer p {
     padding-top: 15px;
     font-weight: bold;
-}
-
-.mentions-légales {
-    padding-bottom: 30px;
-    font-size: 10px;
 }
 
 @media screen and (max-width: 767px) {
