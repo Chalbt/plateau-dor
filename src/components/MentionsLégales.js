@@ -6,12 +6,12 @@ function MentionsLégales() {
 
         <div className="mentions-légales">
                 
-            Toutes les photos de plats présentées sur ce site sont protégées par le droit d'auteur et sont la propriété exclusive de Plateau d'or. Toute reproduction, distribution, utilisation ou modification de ces photos sans autorisation préalable est strictement interdite. Pour toute demande d'utilisation ou de partage de nos photos, veuillez nous contacter à contact@plateau-dor.com.<br/><br/>
+            Toutes les photos de plats présentées sur ce site sont protégées par le droit d'auteur et sont la propriété exclusive de Plateau d'or. Toute reproduction, distribution, utilisation ou modification de ces photos sans autorisation préalable est strictement interdite. Pour toute demande d'utilisation ou de partage de nos photos, veuillez nous contacter via le formulaire de contact<br/><br/>
             Mentions Légales<br/><br/>
 
             1. Informations générales
 
-            Ce site Web est la propriété de Plateau d'or, située à 22 rue Pierre Mendes France, 77000 Torcy, enregistrée sous le numéro SIRET 79287280600031. Vous pouvez nous contacter à l'adresse e-mail suivante : contact@plateau-dor.com.<br/>
+            Ce site Web est la propriété de Plateau d'or, située à Torcy 77OO0, enregistrée sous le numéro SIRET 79287280600031.<br/>
 
             2. Collecte de données
 
@@ -35,7 +35,7 @@ function MentionsLégales() {
 
             7. Droits des utilisateurs
 
-            Conformément au RGPD, vous avez le droit d'accéder à vos données personnelles, de les corriger, de les effacer, de vous opposer à leur traitement ou de demander leur portabilité. Pour exercer ces droits ou poser des questions sur la protection de vos données, veuillez nous contacter à l'adresse e-mail contact@plateau-dor.com.<br/>
+            Conformément au RGPD, vous avez le droit d'accéder à vos données personnelles, de les corriger, de les effacer, de vous opposer à leur traitement ou de demander leur portabilité. Pour exercer ces droits ou poser des questions sur la protection de vos données, veuillez nous contacter via le formulaire de contact.<br/>
 
             8. Modification de la politique de confidentialité
 
