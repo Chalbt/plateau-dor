@@ -11,7 +11,7 @@ function MentionsLégales() {
 
             1. Informations générales
 
-            Ce site Web est la propriété de Plateau d'or, située à Torcy 77OO0, enregistrée sous le numéro SIRET 79287280600031.<br/>
+            Ce site Web est la propriété de Plateau d'or, située à Torcy 77000, enregistrée sous le numéro SIRET 79287280600031.<br/>
 
             2. Collecte de données
 
